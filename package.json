@@ -4,7 +4,8 @@
   "description": "Utility Error class suitable for gRPC error responses",
   "main": "index.js",
   "scripts": {
-    "test": "ava -v"
+    "test": "ava -v",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,12 @@
     "grpc"
   ],
   "dependencies": {
-    "grpc-create-error": "^1.0.0"
+    "@eeston/grpc-create-error": "^2.0.0"
   },
   "devDependencies": {
+    "@grpc/grpc-js": "^1.0.1",
     "ava": "^0.22.0",
-    "grpc": "^1.0.1",
+    "git-cz": "^4.7.6",
     "standard": "^10.0.0"
   },
   "directories": {
@@ -41,6 +43,6 @@
     ]
   },
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=12.0.0"
   }
 }

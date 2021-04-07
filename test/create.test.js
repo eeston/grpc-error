@@ -1,7 +1,7 @@
-import test from 'ava'
-import grpc from 'grpc'
+const test = require ('ava')
+const grpc = require('@grpc/grpc-js')
 
-import GRPCError from '../'
+const GRPCError = require( '../')
 
 test('create an error just from message', t => {
   const err = new GRPCError('Boom')

@@ -1,4 +1,4 @@
-const { applyCreate } = require('grpc-create-error')
+const { applyCreate } = require('@eeston/grpc-create-error')
 
 module.exports = class GRPCError extends Error {
   constructor (message, code, metatada) {
