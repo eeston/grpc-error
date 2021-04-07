@@ -1,6 +1,6 @@
 {
-  "name": "grpc-error",
-  "version": "1.0.0",
+  "name": "@eeston/grpc-error",
+  "version": "2.0.0",
   "description": "Utility Error class suitable for gRPC error responses",
   "main": "index.js",
   "scripts": {
@@ -9,17 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bojand/grpc-error.git"
+    "url": "git+https://github.com/eeston/grpc-error.git"
   },
   "author": {
     "name": "Bojan D.",
     "email": "dbojan@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "John Easton",
+      "email": "john@easton.dev"
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bojand/grpc-error/issues"
+    "url": "https://github.com/eeston/grpc-error/issues"
   },
-  "homepage": "https://github.com/bojand/grpc-error",
+  "homepage": "https://github.com/eeston/grpc-error",
   "keywords": [
     "protocol buffer",
     "protobuf",
